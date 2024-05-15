@@ -1,0 +1,312 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00008b4d;
+}
+/* Header */
+/* Barra De Navegacion*/
+    .container-fluid{
+    background-color:black ;
+    padding: auto;
+    margin: auto;
+   
+}
+#navbarSupportedContent ul li a {
+    color: white;
+    font-size: 20px;
+    
+}
+#navbarSupportedContent ul li a:hover{
+    transform: scale(1.1);
+    color: skyblue;
+}
+.navbar-nav .nav-item a{
+    color: white;
+}
+.navbar-logo img{
+    width:110px;
+}
+/* Ultimas Noticias */
+
+.galeria{
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;  
+}
+.galeria {
+    height: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.card{
+    width: 100%;
+    margin: 5px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default; 
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5 5px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+.card img{
+    width: 100%;
+    height: 600px;
+}
+.card .galeria{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.card .contenido a{
+    text-decoration:none;
+    display: inline-block  
+}
+.ult h2{
+    text-align: center;
+    
+}
+.ult h2:hover{
+    box-shadow: 5 5px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.2);
+}
+
+/* Copa America */
+.fixture{
+    text-align: center;
+    background-color: #ffeff2;
+    width: 45%;
+    height: auto;
+    font-size: 2rem;
+    margin: 20px auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 0.4fr 2fr repeat(8, 0.4fr);
+    grid-template-rows: repeat(5, 1fr);
+    border: black 2px solid;
+}
+.fixture .grupoa{
+    background-color: gray;
+    color: black;
+}
+.fixture .arriba{
+    border: black solid 2px;
+}
+.fixture .argentina{
+    border: black solid 2px;
+}
+.fixture .argentina img{
+    width: 35px;
+}
+.fixture .argentina img:hover{
+    transform: scale(1.2);
+}
+.fixture .peru{
+    border: black solid 2px;
+}
+.fixture .peru img{
+    width: 35px;
+}
+.fixture .peru img:hover{
+    transform: scale(1.2);
+}
+.fixture .chile{
+    border: black solid 2px;
+}
+.fixture .chile img{
+    width: 35px;
+}
+.fixture .chile img:hover{
+    transform: scale(1.2);
+}
+.fixture .canada{
+    border: black solid 2px;
+}
+.fixture .canada img{
+    width: 35px;
+}
+.fixture .canada img:hover{
+    transform: scale(1.2);
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pie Grupo 1 */
+.Pie{
+    width: 100%;
+    background-color: black;
+}
+.Pie .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 45px 0;
+}
+.Pie .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+/* Hace Chica la img 1 */
+.Pie .grupo1 .box figure img{
+    width: 150px;
+} 
+.Pie .grupo1 .box figure img:hover{
+    transform: scale(1.2);
+}
+/* sobre nosotros, siguenos, etc */
+.Pie .grupo1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+    border-bottom: solid aqua 2px;
+    display: inline-block;
+} 
+.Pie .grupo1 .box h2:hover{
+    transform: scale(1.2);
+    color: skyblue;
+}
+/* Parrafo */
+.Pie .grupo1 .box  p{
+    color: white;
+    margin-bottom: 10px;
+}
+/* Redes */
+.Pie .grupo1 .redes a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgb(36, 32, 32);
+    text-align: center;
+    transition: all 300ms ease;
+}
+/* Efecto de las redes */
+.Pie .grupo1 .redes a:hover{
+    color: skyblue;
+    transform: scale(1.2);
+}
+/* Tienda */
+.Pie .grupo1 .links ul li a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    color: white;  
+}
+/* Efecto de la tienda */
+.Pie .grupo1 .links ul li a:hover{
+    color: skyblue;
+    transform: scale(1.2);
+}
+.Pie .grupo1 .links h3{
+    margin-top: 15px;
+    color: white;
+    margin-bottom: 13px;
+    border-bottom: solid aqua 2px;
+    display: inline-block;
+}
+.Pie .grupo1 .links h3:hover{
+    transform: scale(1.2);
+    color: skyblue;
+}
+
+/* Pie Grupo 2 */
+.Pie .grupo2 small{
+    font-size: 15px;
+    display: block;
+    margin-bottom: 15px;
+    transition: all;
+}
+.Pie .grupo2{
+    background-color: 0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff; }
+
+
+@media screen and (max-width:800px){
+    .Pie .grupo1{
+    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 35px 0;
+    }
+}
+
+/* Medias Querries */
+
+@media only screen and (min-width:600px){
+    body{
+     background-color: #ffeff2;
+    }
+    #navbarSupportedContent ul li a {
+        font-family: "Platypi", serif;
+        font-optical-sizing: auto;
+        font-weight: 00;
+        font-style: italic;
+    }
+ }
+@media screen and (min-width:1024px){
+     body {
+         background-color: #ffeff2;
+    }
+    #navbarSupportedContent ul li a {
+        font-family: "Platypi", serif;
+        font-optical-sizing: auto;
+        font-weight: 00;
+        font-style: italic;
+    }
+}
+     
+}
